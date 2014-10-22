@@ -8,14 +8,14 @@ public class Room {
 
 	// The constructor.
 	public Room(){
-		color = "yellow";
-		floor = "hard wood";
-		windows = 1;
-	}
-	public Room(String color, String floor, int number) {
-		color = "purple";
-		floor = "hardwood";
+		color = "white";
+		floor = "carpeted";
 		windows = 0;
+	}
+	public Room(String color, String floor, int windows) {
+		this.color = "purple";
+		this.floor = "hardwood";
+		this.windows = 0;
 	}
 
 	public String getcolor() {
