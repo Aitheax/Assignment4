@@ -13,9 +13,9 @@ public class Room {
 		windows = 0;
 	}
 	public Room(String color, String floor, int windows) {
-		this.color = "purple";
-		this.floor = "hardwood";
-		this.windows = 0;
+		this.color = "color";
+		this.floor = "floor";
+		this.windows = windows;
 	}
 
 	public String getcolor() {
