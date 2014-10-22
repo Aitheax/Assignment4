@@ -13,8 +13,8 @@ public class Room {
 		windows = 0;
 	}
 	public Room(String color, String floor, int windows) {
-		this.color = "color";
-		this.floor = "floor";
+		this.color = color;
+		this.floor = floor;
 		this.windows = windows;
 	}
 
